@@ -17,19 +17,19 @@ while True:
       counter += 1
     if each_word == "happy":
       feelings_list.append("happy")
-      encouragement_list.append("Yayyyyy being happy is always the BEST!!!! Stay positive!!")
+      encouragement_list.append("Yayyyyy being happy is always the BEST!!!! Stay positive!!keep simling!!")
       counter += 1
     if each_word == "tired":
       feelings_list.append("tired")
-      encouragement_list.append("You should take a short rest... being tired wont help!! I shall set timers for you!! Jiayouzzzzzz you are much stronger than you think:)))))")
+      encouragement_list.append("You should take a short rest! I shall set timers for you!! Jiayouzzzzzz you are much stronger than you think:)))))")
       counter += 1
     if each_word == "awesome":
       feelings_list.append("awesome")
-      encouragement_list.append("You are AWESOME in every way")
+      encouragement_list.append("You are AWESOME in every way.")
       counter += 1
     if each_word == "meh":
       feelings_list.append("meh")
-      encouragement_list.append("Hehe we will feel meh sometimes toooooo")
+      encouragement_list.append("Hehe we will feel meh sometimes toooooo! Dont let it make you feel down though.")
       counter += 1
     if each_word == "laughy":
       feelings_list.append("laughy")
@@ -56,7 +56,7 @@ while True:
       encouragement += encouragement_list[i] + ", "
     encouragement += "and " + encouragement_list[-1]
 
-    output = "It seems that you are feeling quite " + feelings + ". Please always remember "+ encouragement + "! Hope you feel better :)"
+    output = "It seems that you are feeling quite " + feelings + ". Please always remember "+ encouragement + "! Hope you feel better :) WHOOOOO!!! JIA YOU"
 
   print()
   print(output)

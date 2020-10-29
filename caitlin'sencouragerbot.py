@@ -17,11 +17,19 @@ while True:
       counter += 1
     if each_word == "happy":
       feelings_list.append("happy")
+
       encouragement_list.append("Yayyyyy being happy is always the BEST!!!! Stay positive!!keep simling!!")
       counter += 1
     if each_word == "tired":
       feelings_list.append("tired")
       encouragement_list.append("You should take a short rest! I shall set timers for you!! Jiayouzzzzzz you are much stronger than you think:)))))")
+=======
+      encouragement_list.append("Yayyyyy being happy is always the BEST!!!! Continue to stay positive!!")
+      counter += 1
+    if each_word == "tired":
+      feelings_list.append("tired")
+      encouragement_list.append("You should take a short rest... being tired won't help!! I shall set timers for you!! Jiayouzzzzzz you are much stronger than you think:)))))")
+
       counter += 1
     if each_word == "awesome":
       feelings_list.append("awesome")
@@ -33,7 +41,7 @@ while True:
       counter += 1
     if each_word == "laughy":
       feelings_list.append("laughy")
-      encouragement_list.append("Whoop!!!!! Be like meeeee Laugh a lotttt!!!! Don't listen to friends that tell you to stop laughing!!!!!!! It has been scientifically proven that laughing is good for your health!!! [According to The Caitlin Scientific lab of research]")
+      encouragement_list.append("Whoop!!!!! Be like meeeee and laugh a lotttt!!!! Don't listen to friends that tell you to stop laughing!!!!!!! It has been scientifically proven that laughing is good for your health!!! [According to The Caitlin Scientific lab of research]")
       counter += 1
 
   if counter == 0:
@@ -42,7 +50,7 @@ while True:
 
   elif counter == 1:
     
-      output = "It seems that you are feeling quite " + feelings_list[0] + ". "+ encouragement_list[0] + "! Hope you feel better :)"  
+      output = "It seems that you are feeling quite " + feelings_list[0] + ". "+ encouragement_list[0] + "!! Hope you feel better :)"  
 
   else:
 
@@ -56,7 +64,11 @@ while True:
       encouragement += encouragement_list[i] + ", "
     encouragement += "and " + encouragement_list[-1]
 
+
     output = "It seems that you are feeling quite " + feelings + ". Please always remember "+ encouragement + "! Hope you feel better :) WHOOOOO!!! JIA YOU"
+=======
+    output = "It seems that you are feeling " + feelings + ". Please always remember "+ encouragement + "! Hope you feel better :)"
+
 
   print()
   print(output)
